@@ -1,19 +1,22 @@
-LAB - Class xx
-Project: Project Name Here
-Author: Student/Group Name
-Links and Resources
-back-end server url (when applicable)
-front-end application (when applicable)
-Setup
-.env requirements (where applicable)
-i.e.
+# LAB - Class 19
+## Project: Automation
+## Author: Matthew Gebhart
+## January 12, 2023
 
-PORT - Port Number
-DATABASE_URL - URL to the running Postgres instance/db
-How to initialize/run your application (where applicable)
-e.g. python main.py
-How to use your library (where applicable)
-Tests
-How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
+### Links and Resources
+
+### Setup
+uses .venv virtual environment
+runs in python 3.11
+
+### How to initialize/run your application (where applicable)
+e.g. python automation.py
+
+### Tests
+no tests 
+running as a script will print email addresses and phone numbers to the terminal
+- will also sort in ascending order, remove duplicates and separate to new lines 
+- will also create text files and save them to /assets folder
+
+### Thanks and attribution
+- Credit for help on writing the regular expression pattern goes to our new robot overlords ChatGPT
